@@ -1,0 +1,17 @@
+- snake game blueprint:
+
+1. create the snake
+    - giving the snake ability to move with listener controls
+    - growing the snake when it eats something
+    - have the snake be able to react to walls = game over
+    - have the snake be able to react to itself = game over
+
+2. create the food
+    - the food must appear randomly
+    - the food must disappear when snake eats it
+
+3. create the scoreboard
+    - update by 1 each time snake eats food
+
+
+
