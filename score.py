@@ -1,8 +1,6 @@
 from turtle import Turtle
 
-
 class Score(Turtle):
-
     def __init__(self):
         super().__init__()
         self.score = 0
@@ -21,6 +19,9 @@ class Score(Turtle):
 
     def game_over(self):
         self.goto(-100, 0)
-        self.write(f"GAME OVER", font=('Arial', 20, 'bold'))
+        self.write("GAME OVER", font=('Arial', 20, 'bold'))
         self.goto(-100, -30)
         self.write(f'Final score: {self.score}', font=('Arial', 14, 'bold'))
+        self.goto(-100, -60)
+        self.write("Press 'Y' to play again. 'N' to leave.")
+
